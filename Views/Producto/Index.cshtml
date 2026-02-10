@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ProductosAlimenticiosMVC.Models.Producto>
+
+<h2>Productos alimenticios</h2>
+
+<p>
+    @Html.ActionLink("Nuevo Producto", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <th>Categoria</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Vence</th>
+        <th>Acciones</th>
+    </tr>
+
+@foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.Nombre</td>
+                    <td>@p.Categoria</td>
+                    <td>@p.Precio</td>
+                    <td>@p.Stock</td>
+                    <td>@p.FechaVencimiento.ToShortDateString()</td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", p) |
+                        @Html.ActionLink("Eliminar", "Delete", p)
+                    </td>
+                </tr>
+            }
+</table>    
