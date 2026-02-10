@@ -1,7 +1,9 @@
 # -_aplicacion_mvc_en_.net_-c-_productos_alimenticios_- :.
 📦 Aplicación MVC en .NET C# – Productos Alimenticios
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/816c7641-e517-4450-9e60-7848577e165d" />    
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/816c7641-e517-4450-9e60-7848577e165d" />        
+
+<img width="2559" height="1079" alt="image" src="https://github.com/user-attachments/assets/cf10671c-c418-4422-8644-94825a4ce6f7" />    
 
 <img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/2a54dd28-fe6a-4e81-986a-eab096876e50" />    
 
