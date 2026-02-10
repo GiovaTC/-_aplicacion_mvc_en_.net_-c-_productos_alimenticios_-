@@ -3,6 +3,8 @@
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/816c7641-e517-4450-9e60-7848577e165d" />    
 
+<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/2a54dd28-fe6a-4e81-986a-eab096876e50" />    
+
 A continuación se presenta una solución profesional, clara y alineada a buenas prácticas para una aplicación MVC en .NET C# (ASP.NET MVC clásico, no Core) desarrollada en Visual Studio 2022, que gestiona productos alimenticios y realiza un CRUD completo mediante un Procedimiento Almacenado en SQL Server .
 
 🔹 Características Generales:
