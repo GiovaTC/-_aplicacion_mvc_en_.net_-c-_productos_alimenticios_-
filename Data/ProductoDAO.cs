@@ -43,5 +43,25 @@ namespace ProductosAlimenticiosMVC.Data
             }
             return lista;
         }
+
+        public void EjecutarSP(int opcion, Producto p)
+        {
+            using (SqlConnection cn = new SqlConnection(cadena))
+            {
+                SqlCommand cmd = new SqlCommand("SP_PRODUCTO_CRUD", cn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@OPCION", opcion);
+                cmd.Parameters.AddWithValue("@ID_PRODUCTO", p.IdProducto);
+                cmd.Parameters.AddWithValue("@NOMBRE", p.Nombre);
+                cmd.Parameters.AddWithValue("@CATEGORIA", p.Categoria);
+                cmd.Parameters.AddWithValue("@PRECIO", p.Precio);
+                cmd.Parameters.AddWithValue("@STOCK", p.Stock);
+                cmd.Parameters.AddWithValue("@FECHA_VENCIMIENTO", p.FechaVencimiento);
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }
