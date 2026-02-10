@@ -84,3 +84,4 @@ C:\Users\USUARIO\source\repos\ProductosAlimenticiosMVC\obj\Debug\ProductosAlimen
 C:\Users\USUARIO\source\repos\ProductosAlimenticiosMVC\obj\Debug\Producto.4B2E63E4.Up2Date
 C:\Users\USUARIO\source\repos\ProductosAlimenticiosMVC\obj\Debug\ProductosAlimenticiosMVC.dll
 C:\Users\USUARIO\source\repos\ProductosAlimenticiosMVC\obj\Debug\ProductosAlimenticiosMVC.pdb
+C:\Users\USUARIO\source\repos\ProductosAlimenticiosMVC\bin\Oracle.ManagedDataAccess.dll
